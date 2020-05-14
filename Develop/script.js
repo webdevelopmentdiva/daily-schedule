@@ -24,8 +24,11 @@ $("button").on("click", function () {
   localStorage.setItem(time, text);
 });
 
+
+
 function updatePage() {
   today.text("Today is " + moment().format("MMMM Do YYYY, h:mm:ss a") + ".");
+
 
   switch (moment().format("h")) {
     case "9":
