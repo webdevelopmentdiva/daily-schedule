@@ -1,4 +1,4 @@
-const today = $('#today");
+const today = $("#today");
 
 updatePage();
 
@@ -29,51 +29,51 @@ function updatePage() {
 
   switch (moment().format("h")) {
     case "9":
-      $("#9am").prevAll().children("textarea").css("background-color", "#ccccff");
-      $("#9am").children("textarea").css("background-color", "#ffccff");
-      $("#9am").nextAll().children("textarea").css("background-color", "#ffffcc");
+      $("#9am").prevAll().children("textarea").css("background-color", "#0000FF");
+      $("#9am").children("textarea").css("background-color", "#FF0080");
+      $("#9am").nextAll().children("textarea").css("background-color", "#AC58FA");
       break;
     case "10":
-      $("#10am").prevAll().children("textarea").css("background-color", "#ccccff");
-      $("#10am").children("textarea").css("background-color", "#ffccff");
-      $("#10am").nextAll().children("textarea").css("background-color", "#ffffcc");
+      $("#10am").prevAll().children("textarea").css("background-color", "#0000FF");
+      $("#10am").children("textarea").css("background-color", "#FF0080");
+      $("#10am").nextAll().children("textarea").css("background-color", "#AC58FA");
       break;
     case "11":
-      $("#11am").prevAll().children("textarea").css("background-color", "#ccccff");
-      $("#11am").children("textarea").css("background-color", "#ffccff");
-      $("#11am").nextAll().children("textarea").css("background-color", "#ffffcc");
+      $("#11am").prevAll().children("textarea").css("background-color", "#0000FF");
+      $("#11am").children("textarea").css("background-color", "#FF0080");
+      $("#11am").nextAll().children("textarea").css("background-color", "#AC58FA");
       break;
     case "12":
-      $("#12pm").prevAll().children("textarea").css("background-color", "#ccccff");
-      $("#12pm").children("textarea").css("background-color", "#ffccff");
-      $("#12pm").nextAll().children("textarea").css("background-color", "#ffffcc");
+      $("#12pm").prevAll().children("textarea").css("background-color", "#0000FF");
+      $("#12pm").children("textarea").css("background-color", "#FF0080");
+      $("#12pm").nextAll().children("textarea").css("background-color", "#AC58FA");
       break;
     case "1":
-      $("#1pm").prevAll().children("textarea").css("background-color", "#ccccff");
-      $("#1pm").children("textarea").css("background-color", "#ffccff");
-      $("#1pm").nextAll().children("textarea").css("background-color", "#ffffcc");
+      $("#1pm").prevAll().children("textarea").css("background-color", "#0000FF");
+      $("#1pm").children("textarea").css("background-color", "#FF0080");
+      $("#1pm").nextAll().children("textarea").css("background-color", "#AC58FA");
       break;
     case "2":
-      $("#2pm").prevAll().children("textarea").css("background-color", "#ccccff");
-      $("#2pm").children("textarea").css("background-color", "#ffccff");
-      $("#2pm").nextAll().children("textarea").css("background-color", "#ffffcc");
+      $("#2pm").prevAll().children("textarea").css("background-color", "#0000FF");
+      $("#2pm").children("textarea").css("background-color", "#FF0080");
+      $("#2pm").nextAll().children("textarea").css("background-color", "#AC58FA");
       break;
     case "3":
-      $("#3pm").prevAll().children("textarea").css("background-color", "#ccccff");
-      $("#3pm").children("textarea").css("background-color", "#ffccff");
-      $("#3pm").nextAll().children("textarea").css("background-color", "#ffffcc");
+      $("#3pm").prevAll().children("textarea").css("background-color", "#0000FF");
+      $("#3pm").children("textarea").css("background-color", "#FF0080");
+      $("#3pm").nextAll().children("textarea").css("background-color", "#AC58FA");
       break;
     case "4":
-      $("#4pm").prevAll().children("textarea").css("background-color", "#ccccff");
-      $("#4pm").children("textarea").css("background-color", "#ffccff");
-      $("#4pm").nextAll().children("textarea").css("background-color", "#ffffcc");
+      $("#4pm").prevAll().children("textarea").css("background-color", "#0000FF");
+      $("#4pm").children("textarea").css("background-color", "#FF0080");
+      $("#4pm").nextAll().children("textarea").css("background-color", "#AC58FA");
       break;
     case "5":
-      $("#5pm").prevAll().children("textarea").css("background-color", "#ccccff");
-      $("#5pm").children("textarea").css("background-color", "#ffccff");
-      $("#5pm").nextAll().children("textarea").css("background-color", "#ffffcc");
+      $("#5pm").prevAll().children("textarea").css("background-color", "#0000FF");
+      $("#5pm").children("textarea").css("background-color", "#FF0080");
+      $("#5pm").nextAll().children("textarea").css("background-color", "#AC58FA");
       break;
     default:
-      $("textarea").css("background-color", "#ffffcc");
+      $("textarea").css("background-color", "#AC58FA");
   }
 }
